@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+    <include file="$(find turtlebot3_gazebo)/launch/turtlebot3_world.launch" />
+    <include file="$(find robot_pose_ekf)/robot_pose_ekf.launch" />
+    <include file="$(find odom_to_trajectory)/launch/create_trajectory.launch" />
+    <include file="$(find turtlebot3_teleop)/launch/turtlebot3_teleop_key.launch" />
+</launch>
